@@ -1,0 +1,42 @@
+p {
+  color: gray;
+}
+h {
+  color: gray;
+}
+
+
+}
+g {
+  color: white;
+}
+
+BODY {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://media.discordapp.net/attachments/1049046611738759178/1055860675630608464/Picsart_22-12-22_14-07-53-896.jpg?width=586&height=586);
+  background-size: 84%;
+  background-position: 25% 35%;
+  font-family: Georgia;
+  }
+H1 {
+  font-size: 50px;
+  font-weight: normal;
+  cursor: pointer;
+  text-shadow: 0 0 0 crimson;
+  color: rgb(127, 232, 255);
+  animation: shadows 4s infinite ease-in;
+  }
+
+@keyframes shadows {
+  60% {
+    text-shadow: 0 0 0 rgb(127, 232, 255);
+  }
+  90% {
+    text-shadow: 0 20px 30px rgb(127, 232, 255);
+  }
+  100% {
+      text-shadow: 0 20px 30px rgb(127, 232, 255);
+  }
+}
